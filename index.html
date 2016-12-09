@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew Naumann | Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="program-wrapper">
+      <div class="expression-container">
+        <div class="instructions"><p>
+          Type out your expression you wish to evaluate. i.e. 7 * 7<br>
+          Press enter to evaluate a new expression.<br>
+          Inspired by <a href="https://numi.io/">numi.io</a>
+        </p>
+        </div>
+        <div class="expression-wrapper">
+          <span class="icon-close clear"></span><input type="text" placeholder="type your expression" class="expression">
+          <div class="sum"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
